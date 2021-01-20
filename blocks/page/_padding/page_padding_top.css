@@ -1,0 +1,9 @@
+.page_padding_top {
+  padding-top: 45px;
+}
+
+@media screen and (max-width: 425px) {
+  .page_padding_top {
+    padding-top: 28px;
+  }
+}
