@@ -1,5 +1,6 @@
 .page_padding_top {
   padding-top: 45px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 425px) {

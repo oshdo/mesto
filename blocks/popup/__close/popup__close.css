@@ -1,0 +1,29 @@
+.popup__close {
+  position: fixed;
+  top: -10%;
+  left: 101%;
+  background-color: transparent;
+  background-image: url(../../../images/close-icon.png);
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  border: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 528px) {
+  .popup__close {
+    top: -13%;
+    left: 92%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .popup__close {
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+    top: -10%;
+    left: 90%;
+  }
+}

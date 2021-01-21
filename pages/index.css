@@ -19,3 +19,16 @@
 @import url(../blocks/profile/__description/profile__description.css);
 @import url(../blocks/profile/__edit-button/profile__edit-button.css);
 @import url(../blocks/profile/__add-button/profile__add-button.css);
+
+/* импорт popup */
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__input/form__input_text_name.css);
+@import url(../blocks/form/__input/form__input_text_description.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/popup/__close/popup__close.css);

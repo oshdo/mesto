@@ -9,23 +9,38 @@
     <link rel="stylesheet" href="pages/index.css">
   </head>
   <body class="page page_padding_top">
-    <header class="header header_margin_all">
-      <img class="logo" src="./images/logo.svg">
-    </header>
-    <main>
-      <section class="profile profile_margin_all">
-        <img class="profile__image" src="./images/custo.png">
-        <div class="profile__info">
-          <h1 class="profile__name">
-            Жак-Ив Кусто
-          </h1>
-          <button class="profile__edit-button"></button>
-          <p class="profile__description">
-            Исследователь океана
-          </p>
+      <header class="header header_margin_all">
+        <img class="logo" src="./images/logo.svg">
+      </header>
+      <main>
+        <section class="profile profile_margin_all">
+          <img class="profile__image" src="./images/custo.png">
+          <div class="profile__info">
+            <h1 class="profile__name">
+              Жак-Ив Кусто
+            </h1>
+            <button class="profile__edit-button"></button>
+            <p class="profile__description">
+              Исследователь океана
+            </p>
+          </div>
+          <button class="profile__add-button"></button>
+        </section>
+      </main>
+      <section class="popup">
+        <div class="popup__container">
+          <form class="form popup__form">
+            <h3 class="form__heading">
+              Редактировать профиль
+            </h3>
+            <input type="text" class="form__input form__input_text_name" placeholder="Имя" required>
+            <input type="text" class="form__input form__input_text_description" placeholder="Описание" required>
+            <button class="form__button">
+              Сохранить
+            </button>
+          </form>
+          <button class="popup__close"></button>
         </div>
-        <button class="profile__add-button"></button>
       </section>
-    </main>
   </body>
 </html>
