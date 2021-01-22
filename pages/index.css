@@ -35,9 +35,14 @@
 
 /* импорт grid-container */
 @import url(../blocks/grid-container/grid-container.css);
+@import url(../blocks/grid-container/_margin/grid-container_margin_all.css);
 @import url(../blocks/grid-container/__card/grid__card.css);
 @import url(../blocks/grid-container/__image/grid__image.css);
 @import url(../blocks/grid-container/__card-container/grid__card-container.css);
 @import url(../blocks/grid-container/__card-name/grid__card-name.css);
 @import url(../blocks/grid-container/__icon/grid__icon.css);
 
+/* импорт footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/_margin/footer_margin_all.css);
+@import url(../blocks/footer/__text/footer__text.css);
