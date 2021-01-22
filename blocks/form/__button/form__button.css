@@ -1,8 +1,8 @@
 .form__button {
   width: 100%;
   height: 50px;
-  background-color: #000000;
+  background-color: #000;
   border: 0;
-  color: white;
+  color: #ffff;
   padding: 0;
 }

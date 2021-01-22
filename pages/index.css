@@ -23,8 +23,8 @@
 /* импорт popup */
 
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_position/popup_position.css);
 @import url(../blocks/popup/__container/popup__container.css);
-@import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__heading/form__heading.css);
 @import url(../blocks/form/__input/form__input.css);
@@ -32,3 +32,12 @@
 @import url(../blocks/form/__input/form__input_text_description.css);
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/popup/__close/popup__close.css);
+
+/* импорт grid-container */
+@import url(../blocks/grid-container/grid-container.css);
+@import url(../blocks/grid-container/__card/grid__card.css);
+@import url(../blocks/grid-container/__image/grid__image.css);
+@import url(../blocks/grid-container/__card-container/grid__card-container.css);
+@import url(../blocks/grid-container/__card-name/grid__card-name.css);
+@import url(../blocks/grid-container/__icon/grid__icon.css);
+
