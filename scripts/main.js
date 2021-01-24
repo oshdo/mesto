@@ -2,9 +2,13 @@ const popup = document.querySelector('.popup');
 const popupOpenButton = document.querySelector('.profile__edit-button');
 const popupCloseButton = popup.querySelector('.popup__close');
 
-const togglePopup = function() {
-  popup.classList.toggle('popup_opened')
+const openPopup = function() {
+  popup.classList.add('popup_opened')
 }
 
-popupOpenButton.addEventListener('click', togglePopup)
-popupCloseButton.addEventListener('click', togglePopup)
+const closePopup = function() {
+  popup.classList.remove('popup_opened')
+}
+
+popupOpenButton.addEventListener('click', openPopup)
+popupCloseButton.addEventListener('click', closePopup)
