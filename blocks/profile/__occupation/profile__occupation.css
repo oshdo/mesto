@@ -1,8 +1,12 @@
 .profile__occupation {
+  max-width: 430px;
   margin: 0;
   font-size: 18px;
   font-weight: normal;
   line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 @media screen and (max-width: 1000px) {

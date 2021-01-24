@@ -4,12 +4,10 @@
   background-color: transparent;
   box-sizing: border-box;
   border: 1px solid #fff;
-  margin-right: 40px;
   padding: 0;
   background-image: url(../../../images/edit.svg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 9px;
   transition-duration: 0.3s;
   transition-property: opacity;
   transition-timing-function: linear;
@@ -22,12 +20,6 @@
 
 .profile__edit-button:focus {
   border-radius: 0 0 0 0;
-}
-
-@media screen and (max-width: 1000px) {
-  .profile__edit-button {
-    margin-right: 0;
-  }
 }
 
 @media screen and (max-width: 425px) {

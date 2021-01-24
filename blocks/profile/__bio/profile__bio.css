@@ -1,0 +1,10 @@
+.profile__bio {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+  .profile__bio {
+    align-items: center;
+  }
+}
