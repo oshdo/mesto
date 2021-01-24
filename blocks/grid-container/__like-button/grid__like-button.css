@@ -1,0 +1,22 @@
+.grid__like-button {
+  background-image: url(../../../images/heart.svg);
+  background-repeat: no-repeat;
+  width: 22px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-position: center;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: linear;
+  transition-delay: 0ms;
+}
+
+.grid__like-button:focus {
+  outline: none;
+  background-image: url(../../../images/active-like.svg);
+}
+
+.grid__like-button:hover {
+  opacity: .5;
+}

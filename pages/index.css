@@ -40,7 +40,7 @@
 @import url(../blocks/grid-container/__image/grid__image.css);
 @import url(../blocks/grid-container/__card-container/grid__card-container.css);
 @import url(../blocks/grid-container/__card-name/grid__card-name.css);
-@import url(../blocks/grid-container/__icon/grid__icon.css);
+@import url(../blocks/grid-container/__like-button/grid__like-button.css);
 
 /* импорт footer */
 @import url(../blocks/footer/footer.css);
