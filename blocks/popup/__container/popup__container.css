@@ -1,15 +1,13 @@
 .popup__container {
+  align-self: center;
   display: flex;
   flex-direction: column;
   padding: 34px 36px 37px;
   box-sizing: border-box;
-  position: fixed;
-  top: 28%;
-  left: 50%;
   width: 430px;
-  transform: translate(-50%, -50%);
   background-color: #fff;
   border-radius: 10px;
+  z-index: 2;
 }
 
 @media screen and (max-width: 430px) {

@@ -10,4 +10,7 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

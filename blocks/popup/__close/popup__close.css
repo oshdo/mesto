@@ -1,7 +1,7 @@
 .popup__close {
-  position: fixed;
-  top: -10%;
-  left: 100%;
+  position: absolute;
+  top: 33%;
+  right: 31%;
   background-color: transparent;
   background-image: url(../../../images/close-icon.svg);
   width: 40px;
@@ -21,10 +21,22 @@
   opacity: .6;
 }
 
-@media screen and (max-width: 528px) {
+@media screen and (min-width: 2560px) {
   .popup__close {
-    top: -13%;
-    left: 92%;
+    top: 36%;
+    right: 42%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .popup__close {
+    right: 26%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .popup__close {
+    right: 18%;
   }
 }
 
@@ -33,7 +45,18 @@
     width: 26px;
     height: 26px;
     background-size: cover;
-    top: -10%;
-    left: 93%;
+    top: 35%;
+    right: 11%;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .popup__close {
+    width: 26px;
+    height: 26px;
+    background-size: cover;
+    top: 34%;
+    right: 5%;
   }
 }
