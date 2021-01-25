@@ -10,10 +10,7 @@
   background-image: url(../../../images/add-button.svg);
   background-repeat: no-repeat;
   background-position: center;
-  transition-duration: 0.3s;
-  transition-property: opacity;
-  transition-timing-function: linear;
-  transition-delay: 0ms;
+  transition: opacity 0.3s linear 0ms;
 }
 
 .profile__add-button:hover {
