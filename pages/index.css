@@ -38,11 +38,11 @@
 /* импорт grid-container */
 @import url(../blocks/grid-container/grid-container.css);
 @import url(../blocks/grid-container/_margin/grid-container_margin_all.css);
-@import url(../blocks/grid-container/__card/grid__card.css);
-@import url(../blocks/grid-container/__image/grid__image.css);
-@import url(../blocks/grid-container/__card-container/grid__card-container.css);
-@import url(../blocks/grid-container/__card-name/grid__card-name.css);
-@import url(../blocks/grid-container/__like-button/grid__like-button.css);
+@import url(../blocks/grid-container/__card/grid-container__card.css);
+@import url(../blocks/grid-container/__image/grid-container__image.css);
+@import url(../blocks/grid-container/__card-container/grid-container__card-container.css);
+@import url(../blocks/grid-container/__card-name/grid-container__card-name.css);
+@import url(../blocks/grid-container/__like-button/grid-container__like-button.css);
 
 /* импорт footer */
 @import url(../blocks/footer/footer.css);
