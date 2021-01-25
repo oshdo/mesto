@@ -21,14 +21,14 @@
                 <h1 class="profile__name">
                   Жак-Ив Кусто
                 </h1>
-                <button class="profile__edit-button"></button>
+                <button class="profile__edit-button" aria-label="Редактировать профиль"></button>
               </div>
               <p class="profile__occupation">
                 Исследователь океана
               </p>
             </div>
           </div>
-          <button class="profile__add-button"></button>
+          <button class="profile__add-button" aria-label="Добавить новый профиль"></button>
         </section>
         <section class="grid-container grid-container_margin_all">
           <div class="grid__card">
@@ -37,7 +37,7 @@
               <h2 class="grid__card-name">
               Карачаевск
               </h2>
-              <button class="grid__like-button"></button>
+              <button class="grid__like-button" aria-label="Лайк"></button>
             </div>
           </div>
           <div class="grid__card">
@@ -46,7 +46,7 @@
               <h2 class="grid__card-name">
               Гора Эльбрус
               </h2>
-              <button class="grid__like-button"></button>
+              <button class="grid__like-button" aria-label="Лайк"></button>
             </div>
           </div>
           <div class="grid__card">
@@ -55,7 +55,7 @@
               <h2 class="grid__card-name">
               Домбай
               </h2>
-              <button class="grid__like-button"></button>
+              <button class="grid__like-button" aria-label="Лайк"></button>
             </div>
           </div>
           <div class="grid__card">
@@ -64,7 +64,7 @@
               <h2 class="grid__card-name">
               Байкал
               </h2>
-              <button class="grid__like-button"></button>
+              <button class="grid__like-button" aria-label="Лайк"></button>
             </div>
           </div>
           <div class="grid__card">
@@ -73,7 +73,7 @@
               <h2 class="grid__card-name">
               Новороссийск
               </h2>
-              <button class="grid__like-button"></button>
+              <button class="grid__like-button" aria-label="Лайк"></button>
             </div>
           </div>
           <div class="grid__card">
@@ -82,7 +82,7 @@
               <h2 class="grid__card-name">
               Приморский Край
               </h2>
-              <button class="grid__like-button"></button>
+              <button class="grid__like-button" aria-label="Лайк"></button>
             </div>
           </div>
         </section>
@@ -94,14 +94,14 @@
       </section>
       <section class="popup popup_position">
         <div class="popup__container">
-          <button class="popup__close"></button>
+          <button class="popup__close" aria-label="Закрыть окно"></button>
           <form>
             <h3 class="popup__heading">
               Редактировать профиль
             </h3>
-            <input type="text" class="popup__input popup__input_text_name" placeholder="Имя">
-            <input type="text" class="popup__input popup__input_text_occupation" placeholder="Занятие">
-            <button class="popup__submit">
+            <input type="text" class="popup__input popup__input_text_name" placeholder="Имя" required>
+            <input type="text" class="popup__input popup__input_text_occupation" placeholder="Занятие" required>
+            <button class="popup__submit" aria-label="Сохранить">
               Сохранить
             </button>
           </form>

@@ -5,4 +5,9 @@
   border: 0;
   color: #ffff;
   padding: 0;
+  transition: opacity 0.3s linear 0ms;
+}
+
+.popup__submit:hover {
+  opacity: .8;
 }

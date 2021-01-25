@@ -10,10 +10,7 @@
   background-size: contain;
   border: 0;
   padding: 0;
-  transition-duration: 0.3s;
-  transition-property: opacity;
-  transition-timing-function: linear;
-  transition-delay: 0ms;
+  transition: opacity 0.3s linear 0ms;
 }
 
 .popup__close:focus {
