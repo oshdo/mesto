@@ -12,7 +12,7 @@
       <header class="header header_margin_all">
         <img class="logo" src="./images/logo.svg" alt="Лого проекта Mesto">
       </header>
-      <main>
+      <main class="content content_margin_all">
         <section class="profile profile_margin_all">
           <div class="profile__container">
             <img class="profile__image" src="./images/custo.png" alt="Иконка профиля">
@@ -94,11 +94,11 @@
       </section>
       <div class="popup">
         <div class="popup__container">
+          <h3 class="popup__heading">
+            Редактировать профиль
+          </h3>
           <button class="popup__close" aria-label="Закрыть окно"></button>
           <form>
-            <h3 class="popup__heading">
-              Редактировать профиль
-            </h3>
             <input type="text" class="popup__input popup__input_text_name" placeholder="Имя" required>
             <input type="text" class="popup__input popup__input_text_occupation" placeholder="Занятие" required>
             <button class="popup__submit" aria-label="Сохранить">

@@ -10,6 +10,10 @@
 @import url(../blocks/header/_margin//header_margin_all.css);
 @import url(../blocks/logo/logo.css);
 
+/* импорт content */
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/_margin/content_margin_all.css);
+
 /* импорт profile */
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/_margin/profile_margin_all.css);

@@ -3,7 +3,7 @@
   margin: 0 auto;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 930px) {
   .page_padding_top {
     padding-top: 28px;
   }

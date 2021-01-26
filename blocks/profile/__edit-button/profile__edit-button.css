@@ -4,11 +4,13 @@
   background-color: transparent;
   box-sizing: border-box;
   border: 1px solid #fff;
+  outline: 0;
   padding: 0;
   background-image: url(../../../images/edit.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: opacity 0.3s linear 0ms;
+  cursor: pointer;
 }
 
 .profile__edit-button:hover {

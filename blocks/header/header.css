@@ -1,12 +1,11 @@
 .header {
-  width: 68.75%;
   max-width: 880px;
   display: flex;
   flex-direction: space-between;
   border-bottom: 1px solid rgba(84, 84, 84, .7);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 930px) {
   .header {
     width: 100%;
   }

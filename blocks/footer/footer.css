@@ -1,11 +1,11 @@
 .footer {
-  width: 68.75%;
   max-width: 880px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 425px) {
   .footer {
-    width: 88%;
     max-width: 282px;
   }
 }

@@ -7,10 +7,12 @@
   background-color: transparent;
   box-sizing: border-box;
   border: 2px solid #fff;
+  outline: 0;
   background-image: url(../../../images/add-button.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: opacity 0.3s linear 0ms;
+  cursor: pointer;
 }
 
 .profile__add-button:hover {
@@ -20,7 +22,6 @@
 @media screen and (max-width: 1000px) {
   .profile__add-button {
     width: 160px;
-
   }
 }
 
