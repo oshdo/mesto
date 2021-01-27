@@ -9,4 +9,12 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  padding-top: 45px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 930px) {
+  .page {
+    padding-top: 28px;
+  }
 }

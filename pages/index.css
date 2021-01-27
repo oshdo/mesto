@@ -3,20 +3,17 @@
 
 /* импорт page */
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/_padding/page_padding_top.css);
+@import url(../blocks/page/__section/page__section.css);
 
 /* импорт header */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/_margin//header_margin_all.css);
 @import url(../blocks/logo/logo.css);
 
 /* импорт content */
 @import url(../blocks/content/content.css);
-@import url(../blocks/content/_margin/content_margin_all.css);
 
 /* импорт profile */
 @import url(../blocks/profile/profile.css);
-@import url(../blocks/profile/_margin/profile_margin_all.css);
 @import url(../blocks/profile/__container/profile__container.css);
 @import url(../blocks/profile/__image/profile__image.css);
 @import url(../blocks/profile/__bio/profile__bio.css);
@@ -39,8 +36,8 @@
 @import url(../blocks/popup/__close/popup__close.css);
 
 /* импорт grid-container */
+@import url(../blocks/cards/cards.css);
 @import url(../blocks/grid-container/grid-container.css);
-@import url(../blocks/grid-container/_margin/grid-container_margin_all.css);
 @import url(../blocks/grid-container/__card/grid-container__card.css);
 @import url(../blocks/grid-container/__image/grid-container__image.css);
 @import url(../blocks/grid-container/__card-container/grid-container__card-container.css);
@@ -49,5 +46,4 @@
 
 /* импорт footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/_margin/footer_margin_all.css);
 @import url(../blocks/footer/__text/footer__text.css);

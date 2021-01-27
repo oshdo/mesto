@@ -8,8 +8,8 @@ let jobInput = document.querySelector('.popup__input_text_occupation')
 
 function openPopup() {
   popup.classList.add('popup_opened')
-  nameInput.value = nameField.textContent.replace(/[\n\r]+|[\s]{2,}/g, ' ').trim()
-  jobInput.value = jobField.textContent.replace(/[\n\r]+|[\s]{2,}/g, ' ').trim()
+  nameInput.value = nameField.textContent
+  jobInput.value = jobField.textContent
 }
 
 function closePopup() {
@@ -20,7 +20,7 @@ function formSubmitHandler(evt) {
   evt.preventDefault();
   nameField.textContent = nameInput.value
   jobField.textContent = jobInput.value
-  popup.classList.remove('popup_opened')
+  closePopup()
 }
 
 popupOpenButton.addEventListener('click', openPopup)

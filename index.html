@@ -4,104 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-      Mesto Russia
+      Места России
     </title>
     <link rel="stylesheet" href="pages/index.css">
   </head>
-  <body class="page page_padding_top">
-      <header class="header header_margin_all">
+  <body class="page page__section">
+      <header class="header page__section">
         <img class="logo" src="./images/logo.svg" alt="Лого проекта Mesto">
       </header>
-      <main class="content content_margin_all">
-        <section class="profile profile_margin_all">
+      <main class="content page__section">
+        <section class="profile page__section">
           <div class="profile__container">
             <img class="profile__image" src="./images/custo.png" alt="Иконка профиля">
             <div class="profile__bio">
               <div class="profile__user-info">
-                <h1 class="profile__name">
-                  Жак-Ив Кусто
-                </h1>
-                <button class="profile__edit-button" aria-label="Редактировать профиль"></button>
+                <h1 class="profile__name">Жак-Ив Кусто</h1>
+                <button class="profile__edit-button" aria-label="Редактировать профиль" type="button"></button>
               </div>
-              <p class="profile__occupation">
-                Исследователь океана
-              </p>
+              <p class="profile__occupation">Исследователь океана</p>
             </div>
           </div>
-          <button class="profile__add-button" aria-label="Добавить новый профиль"></button>
+          <button class="profile__add-button" aria-label="Добавить новый профиль" type="button"></button>
         </section>
-        <section class="grid-container grid-container_margin_all">
-          <div class="grid-container__card">
-            <img src="./images/karachevsk.png" alt="Старая церковь" class="grid-container__image">
-            <div class="grid-container__card-container">
-              <h2 class="grid-container__card-name">
-              Карачаевск
-              </h2>
-              <button class="grid-container__like-button" aria-label="Лайк"></button>
-            </div>
-          </div>
-          <div class="grid-container__card">
-            <img src="./images/elbrus.png" alt="Гора Эльбрус" class="grid-container__image">
-            <div class="grid-container__card-container">
-              <h2 class="grid-container__card-name">
-              Гора Эльбрус
-              </h2>
-              <button class="grid-container__like-button" aria-label="Лайк"></button>
-            </div>
-          </div>
-          <div class="grid-container__card">
-            <img src="./images/dombai.png" alt="Домбай" class="grid-container__image">
-            <div class="grid-container__card-container">
-              <h2 class="grid-container__card-name">
-              Домбай
-              </h2>
-              <button class="grid-container__like-button" aria-label="Лайк"></button>
-            </div>
-          </div>
-          <div class="grid-container__card">
-            <img src="./images/baikal.png" alt="Озеро Байкал" class="grid-container__image">
-            <div class="grid-container__card-container">
-              <h2 class="grid-container__card-name">
-              Байкал
-              </h2>
-              <button class="grid-container__like-button" aria-label="Лайк"></button>
-            </div>
-          </div>
-          <div class="grid-container__card">
-            <img src="./images/novorossiisk.png" alt="Порт Новороссийска" class="grid-container__image">
-            <div class="grid-container__card-container">
-              <h2 class="grid-container__card-name">
-              Новороссийск
-              </h2>
-              <button class="grid-container__like-button" aria-label="Лайк"></button>
-            </div>
-          </div>
-          <div class="grid-container__card">
-            <img src="./images/primorskii krai.jpg" alt="Здание на фоне моря" class="grid-container__image">
-            <div class="grid-container__card-container">
-              <h2 class="grid-container__card-name">
-              Приморский Край
-              </h2>
-              <button class="grid-container__like-button" aria-label="Лайк"></button>
-            </div>
-          </div>
+        <section class="cards page__section">
+          <ul class="grid-container">
+            <li class="grid-container__card">
+              <img src="./images/karachevsk.png" alt="Старая церковь" class="grid-container__image">
+              <div class="grid-container__card-container">
+                <h2 class="grid-container__card-name">
+                Карачаевск
+                </h2>
+                <button class="grid-container__like-button" aria-label="Лайк" type="button"></button>
+              </div>
+            </li>
+            <li class="grid-container__card">
+              <img src="./images/elbrus.png" alt="Гора Эльбрус" class="grid-container__image">
+              <div class="grid-container__card-container">
+                <h2 class="grid-container__card-name">
+                Гора Эльбрус
+                </h2>
+                <button class="grid-container__like-button" aria-label="Лайк" type="button"></button>
+              </div>
+            </li>
+            <li class="grid-container__card">
+              <img src="./images/dombai.png" alt="Домбай" class="grid-container__image">
+              <div class="grid-container__card-container">
+                <h2 class="grid-container__card-name">
+                Домбай
+                </h2>
+                <button class="grid-container__like-button" aria-label="Лайк" type="button"></button>
+              </div>
+            </li>
+            <li class="grid-container__card">
+              <img src="./images/baikal.png" alt="Озеро Байкал" class="grid-container__image">
+              <div class="grid-container__card-container">
+                <h2 class="grid-container__card-name">
+                Байкал
+                </h2>
+                <button class="grid-container__like-button" aria-label="Лайк" type="button"></button>
+              </div>
+            </li>
+            <li class="grid-container__card">
+              <img src="./images/novorossiisk.png" alt="Порт Новороссийска" class="grid-container__image">
+              <div class="grid-container__card-container">
+                <h2 class="grid-container__card-name">
+                Новороссийск
+                </h2>
+                <button class="grid-container__like-button" aria-label="Лайк" type="button"></button>
+              </div>
+            </li>
+            <li class="grid-container__card">
+              <img src="./images/primorskii krai.jpg" alt="Здание на фоне моря" class="grid-container__image">
+              <div class="grid-container__card-container">
+                <h2 class="grid-container__card-name">
+                Приморский Край
+                </h2>
+                <button class="grid-container__like-button" aria-label="Лайк" type="button"></button>
+              </div>
+            </li>
+          </ul>
         </section>
       </main>
-      <section class="footer footer_margin_all">
+      <footer class="footer page__section">
         <p class="footer__text">
           &copy; 2020. Mesto Russia
         </p>
-      </section>
+      </footer>
       <div class="popup">
         <div class="popup__container">
-          <h3 class="popup__heading">
+          <h2 class="popup__heading">
             Редактировать профиль
-          </h3>
-          <button class="popup__close" aria-label="Закрыть окно"></button>
-          <form>
-            <input type="text" class="popup__input popup__input_text_name" placeholder="Имя" required>
-            <input type="text" class="popup__input popup__input_text_occupation" placeholder="Занятие" required>
-            <button class="popup__submit" aria-label="Сохранить">
+          </h2>
+          <button class="popup__close" aria-label="Закрыть окно" type="button"></button>
+          <form name="form">
+            <input type="text" name="user-name" class="popup__input popup__input_text_name" placeholder="Имя" required>
+            <input type="text" name="user-occupation" class="popup__input popup__input_text_occupation" placeholder="Занятие" required>
+            <button class="popup__submit" aria-label="Сохранить" type="submit">
               Сохранить
             </button>
           </form>
